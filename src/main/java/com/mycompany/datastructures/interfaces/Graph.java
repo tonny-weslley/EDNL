@@ -1,11 +1,11 @@
-package com.mycompany.datastructures.implementations;
+package com.mycompany.datastructures.interfaces;
 
 public interface IVertex<T> {
     T getValue();
     void setValue(T value);
 }
 
-public interface IEdge {
+public interface IEdge<T> {
     T getValue();
     IVertex getVertex1();
     IVertex getVertex2();
