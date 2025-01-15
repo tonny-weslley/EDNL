@@ -5,7 +5,6 @@ public interface IVertex<T> {
     void setValue(T value);
 }
 
-
 public interface IEdge {
     T getValue();
     IVertex getVertex1();
